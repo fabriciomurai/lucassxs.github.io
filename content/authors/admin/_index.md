@@ -20,10 +20,6 @@ social:
   link: mailto:lucassxs.sp@gmail.com
 - display:
     header: false
-  icon: twitter
-  icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
 - icon: discord
   icon_pack: fab
   link: #

@@ -65,6 +65,7 @@ main_menu:
   show_day_night: true
   show_search: true
   highlight_active_link: true
+  sharing_image: 'logo.png'
 
 # Localization
 
@@ -141,7 +142,7 @@ search:
     app_id: ''
     api_key: ''
     index_name: ''
-    show_logo: false
+    show_logo: true
 map:
   provider: mapnik
   api_key: ''

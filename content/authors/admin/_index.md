@@ -4,7 +4,7 @@ education:
   courses:
   - course: Statistics
     institution: State University of Maringá
-    year: 2012
+    year: 2020
 email: ""
 highlight_name: false
 interests:
@@ -39,8 +39,8 @@ superuser: true
 title: Lucas Stefano
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi! Welcome to my personal site. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am currently Undergraduate Statistics in the [Departament of Statistics](https://www.des.uem.br), at the [State University of Maringá](https://www.uem.br). This website contains some information
+[about myself](/aboutme) and things I learn, mostly in R, Python and Emacs-Lisp.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

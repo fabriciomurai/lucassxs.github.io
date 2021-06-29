@@ -44,6 +44,10 @@ highlight_languages:
   - r
   - lisp
   - latex
+  - css
+  - javascript
+  - markdown
+  - bash
 math: false
 diagram: false
 privacy_pack: false

@@ -48,6 +48,7 @@ highlight_languages:
   - javascript
   - markdown
   - bash
+highlight_style: "github-gist"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 math: false
 diagram: false
 privacy_pack: false

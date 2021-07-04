@@ -7,7 +7,7 @@ main:
   - name: About
     url: '#aboutme'
     weight: 20
-  - name: Posts
+  - name: Tidy Tuesday
     url: '#posts'
     weight: 20
   - name: Projects

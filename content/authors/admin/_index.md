@@ -1,5 +1,5 @@
 ---
-bio: My personal site.
+bio: Data Analyst and R Developer.
 education:
   courses:
   - course: Statistics

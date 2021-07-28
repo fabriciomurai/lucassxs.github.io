@@ -14,7 +14,7 @@ interests:
 - Web Development
 organizations:
 - name: State University of Maringá
-role: Undergraduate Statistics
+role: Data Analysis
 social:
 - icon: envelope
   icon_pack: fas
@@ -33,6 +33,7 @@ social:
 - icon: twitch
   icon_pack: fab
   link: https://www.twitch.tv/rickk_valassi
+  
 superuser: true
 title: Lucas Stefano
 ---

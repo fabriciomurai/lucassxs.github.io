@@ -21,6 +21,9 @@ social:
   link: mailto:lucassxs.sp@gmail.com
 - display:
     header: false
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/_lucasstxs
 - icon: discord
   icon_pack: fab
   link: #

@@ -24,6 +24,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/_lucasstxs
+- icon: stack-overflow
+  icon_pack: fab
+  link: https://stackoverflow.com/users/13813131/lucas
 - icon: discord
   icon_pack: fab
   link: #

@@ -5,13 +5,13 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
+theme: lucas
+day_night: false
 font: ''
 font_size: L
 
 # plugins
-plugins_js: ''
+plugins_js: 
 
 # SEO
 

@@ -246,3 +246,33 @@
 .card:hover .card-image.hover-overlay:after {
   opacity: 0.6;
 }
+/*************************************************
+* headers in posts
+ **************************************************/
+ /* headers in posts */
+.article-style h1 {
+  font-size: 1.4rem;
+}
+.article-style h2 {
+  font-size: 1.3rem;
+}
+.article-style h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.article-style h4, h5, h6 {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.article-style h1, h2, h3, h4 {
+  font-family: 'Epilogue';
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+/* titles on blog index */
+.article-title {
+  font-family: 'Epilogue';
+  font-weight: 700;
+}

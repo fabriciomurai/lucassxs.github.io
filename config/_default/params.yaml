@@ -10,6 +10,9 @@ day_night: true
 font: ''
 font_size: L
 
+# plugins
+plugins_js: ''
+
 # SEO
 
 site_type: Person

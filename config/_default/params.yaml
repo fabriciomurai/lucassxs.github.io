@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: lucas
+theme: lucas # Browse user installed themes in `data/themes/`
 day_night: false
-font: 'my_font'
+font: 'my_fonts'
 font_size: L
 
 # plugins

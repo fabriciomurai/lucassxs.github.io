@@ -7,7 +7,7 @@
 
 theme: lucas
 day_night: false
-font: ''
+font: 'my_font'
 font_size: L
 
 # plugins

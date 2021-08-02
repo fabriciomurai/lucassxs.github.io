@@ -429,3 +429,188 @@ pre code {
   white-space: pre; /* Override Bootstrap to preserve line breaks in code. */
   overflow-x: auto;
 }
+
+/*************************************************
+ *  Buttons
+ **************************************************/
+.btn {
+  padding: .5 rem;
+  font-size: .8rem;
+  line-height: .5;
+  border-radius: .3rem;
+}
+
+.btn-links .btn {
+  padding: .3rem;
+}
+
+.btn-links .btn:hover {
+  padding: .3rem;
+  color: $sta-menu_primary;
+  border-color: $sta-menu_primary;
+  background-color: #0D9F5F !important;
+}
+
+.btn.btn-sm {
+  padding: .3rem;
+  font-size: .6rem;
+  border-radius: .2rem;
+}
+
+.btn-toolbar .btn {
+  font-size: 0.9rem;
+  padding: 10px 14px 9px;
+  border: none;
+}
+
+.btn-toolbar .btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.btn-toolbar .btn:last-child {
+  border-radius: 0 6px 6px 0;
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: $sta-primary-light !important;
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: $sta-primary-dark !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  padding: .3rem;
+  box-shadow: 0 0 0 .2rem $sta-primary-light;
+}
+
+.btn-articles .btn {
+  padding: .3rem;
+  line-height: 1;
+  box-shadow: 3px 3px 0 0 #0D9F5F;
+  color: #0D9F5F;
+  border-color: #0D9F5F;
+  background-color: $sta-menu_primary !important;
+  justify-content: center; 
+}
+
+.btn-articles .btn:hover {
+  padding: .3rem;
+  line-height: 1;
+  box-shadow: 3px 3px 0 0 #0D9F5F;
+  color: $sta-menu_primary;
+  border-color: $sta-menu_primary;
+  background-color: #0D9F5F !important;
+  justify-content: center; 
+}
+
+
+
+/*************************************************
+ *  Add background image (grainy look)
+ **************************************************/
+
+body {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  color: inherit;
+  background-color: $sta-background;
+  background-image: url(/img/otis-redding.png);
+  background-attachment: fixed;
+  margin-top: 70px; /* Offset body content by navbar height. */
+  padding-top: 0;
+  counter-reset: captions;
+}
+@include media-breakpoint-down(md) { /* Match max-width of .nav-bar query. */
+  body {
+    margin-top: 50px; /* Offset body content by navbar height. */
+  }
+}
+
+/* homepage */
+.home-section {
+  background-image: url('/img/otis-redding.png');
+}
+
+/*************************************************
+ *  Buttons
+ **************************************************/
+.btn {
+  padding: .5 rem;
+  font-size: .8rem;
+  line-height: .5;
+  border-radius: .3rem;
+}
+
+.btn-links .btn {
+  padding: .3rem;
+}
+
+.btn-links .btn:hover {
+  padding: .3rem;
+  color: $sta-menu_primary;
+  border-color: $sta-menu_primary;
+  background-color: #0D9F5F !important;
+}
+
+.btn.btn-sm {
+  padding: .3rem;
+  font-size: .6rem;
+  border-radius: .2rem;
+}
+
+.btn-toolbar .btn {
+  font-size: 0.9rem;
+  padding: 10px 14px 9px;
+  border: none;
+}
+
+.btn-toolbar .btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.btn-toolbar .btn:last-child {
+  border-radius: 0 6px 6px 0;
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: $sta-primary-light !important;
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: $sta-primary-dark !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  padding: .3rem;
+  box-shadow: 0 0 0 .2rem $sta-primary-light;
+}
+
+.btn-articles .btn {
+  padding: .3rem;
+  line-height: 1;
+  box-shadow: 3px 3px 0 0 #0D9F5F;
+  color: #0D9F5F;
+  border-color: #0D9F5F;
+  background-color: $sta-menu_primary !important;
+  justify-content: center; 
+}
+
+.btn-articles .btn:hover {
+  padding: .3rem;
+  line-height: 1;
+  box-shadow: 3px 3px 0 0 #0D9F5F;
+  color: $sta-menu_primary;
+  border-color: $sta-menu_primary;
+  background-color: #0D9F5F !important;
+  justify-content: center; 
+}

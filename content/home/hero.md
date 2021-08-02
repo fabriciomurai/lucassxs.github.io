@@ -3,7 +3,7 @@ widget: hero
 active: false
 headless: true
 weight: 10
-title: Hugo Academic Starter
+title: Lucas Stefano
 hero_media: hero-academic.png
 cta:
   label: '**Get Started**'
@@ -22,6 +22,7 @@ design:
 advanced:
   css_class: fullscreen
 ---
+
 
 **The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.**
 

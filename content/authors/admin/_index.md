@@ -33,6 +33,9 @@ social:
 
 superuser: true
 title: Lucas Stefano
+user_groups:
+- Researchers
+- Visitors
 ---
 
 Hi! Welcome to my personal site. 

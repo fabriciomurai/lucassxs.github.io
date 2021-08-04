@@ -5,14 +5,14 @@
 
 main:
   - name: About
-    url: '#aboutme'
+    url: 'about'
     weight: 20
   - name: Tidy Tuesday
-    url: '#posts'
+    url: 'projects'
     weight: 20
   - name: Projects
     url: '#projects'
     weight: 20
-  - name: Posts 
-    url: '#post'
+  - name: Blog 
+    url: 'blog'
     weight: 20

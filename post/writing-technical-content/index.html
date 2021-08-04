@@ -57,13 +57,14 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 </div>
 </aside>
 <div class=page-header>
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
-<div class=container-xl>
-<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id=navbar-main>
+<div class=container>
+<a class=navbar-brand href=/>Lucas</a>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar aria-controls=navbar aria-expanded=false aria-label="Toggle navigation">
 <span><i class="fas fa-bars"></i></span>
 </button>
-<div class="navbar-collapse main-menu-item collapse justify-content-end" id=navbar-content>
-<ul class="navbar-nav d-md-inline-flex">
+<div class="collapse navbar-collapse" id=navbar>
+<ul class="navbar-nav ml-auto">
 <li class=nav-item>
 <a class=nav-link href=/about><span>About</span></a>
 </li>
@@ -78,11 +79,6 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 </li>
 </ul>
 </div>
-<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-<li class=nav-item>
-<a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a>
-</li>
-</ul>
 </div>
 </nav>
 </div>
@@ -129,8 +125,8 @@ data.head()
 <p>Academic supports the popular <a href=https://plot.ly/ target=_blank rel=noopener>Plotly</a> chart format.</p>
 <p>Save your Plotly JSON in your page folder, for example <code>chart.json</code>, and then add the <code>{{&lt; chart data="chart" >}}</code> shortcode where you would like the chart to appear.</p>
 <p>Demo:</p>
-<div id=chart-294713658 class=chart></div>
-<script>(function(){let a=setInterval(function(){if(typeof window.Plotly=='undefined')return;clearInterval(a),Plotly.d3.json("./line-chart.json",function(a){Plotly.plot('chart-294713658',a.data,a.layout,{responsive:!0})})},500)})()</script>
+<div id=chart-846512973 class=chart></div>
+<script>(function(){let a=setInterval(function(){if(typeof window.Plotly=='undefined')return;clearInterval(a),Plotly.d3.json("./line-chart.json",function(a){Plotly.plot('chart-846512973',a.data,a.layout,{responsive:!0})})},500)})()</script>
 <p>You might also find the <a href=http://plotly-json-editor.getforge.io/ target=_blank rel=noopener>Plotly JSON Editor</a> useful.</p>
 <h3 id=math>Math</h3>
 <p>Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the <code>math</code> option in your <code>config/_default/params.toml</code> file.</p>

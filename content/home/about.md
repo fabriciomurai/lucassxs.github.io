@@ -12,10 +12,17 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: About me
+title: Biography
 
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.
 # See https://wowchemy.com/docs/get-started/#introduce-yourself
 author: admin
+
+design.background:
+  gradient_start: #F7F7F7
+  gradient_end: #AED9E0
+
+design.spacing:
+  padding: ["40px", "0", "40px", "0"]
 ---

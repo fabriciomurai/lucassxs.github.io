@@ -1,7 +1,7 @@
 ---
 # Homepage
 type: widget_page
-summary: My personal site
+summary: Portfolio and personal blog
 
 # Homepage is headless, other widget pages are not.
 headless: true

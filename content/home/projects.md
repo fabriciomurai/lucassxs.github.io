@@ -2,6 +2,7 @@
 # An instance of the Portfolio widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: portfolio
+active: true
 
 # This file represents a page section.
 headless: true
@@ -27,14 +28,15 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: R
+    tag: R
+  - name: Python
+    tag: python
+
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
+  columns: '1'
 
   # Toggle between the various page layout types.
   #   1 = List

@@ -14,7 +14,7 @@ interests:
 - Web Development
 organizations:
 - name: State University of Maringá
-role: Data Analysis
+role: 
 social:
 - icon: envelope
   icon_pack: fas
@@ -40,7 +40,7 @@ user_groups:
 
 Hi! Welcome to my personal site. 
 
-I am currently Undergraduate Statistics in the [Departament of Statistics](https://www.des.uem.br), at the [State University of Maringá](https://www.uem.br). This website contains some information
+I am currently Undergraduate Statistics in the [Departament of Statistics](https://www.des.uem.br), at the [State University of Maringá](https://www.uem.br) and Junior Data Analyst at [VG Educacional](https://www.vgeducacional.com). This website contains some information
 [about myself](/about) and things I learn, mostly in R, Python, SAS and Web Development.
 
 

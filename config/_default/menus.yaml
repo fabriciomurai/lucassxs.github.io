@@ -5,13 +5,13 @@
 
 main:
   - name: R Packages
-    url: 'about'
+    url: 'rpackages'
     weight: 20
   - name: Tidy Tuesday
-    url: 'projects'
+    url: 'publication'
     weight: 20
   - name: Projects
-    url: '#projects'
+    url: 'project'
     weight: 20
   - name: Blog 
     url: 'blog'

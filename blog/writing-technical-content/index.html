@@ -7,7 +7,7 @@
 <meta name=author content="Lucas Stefano">
 <meta name=description content="Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
 Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.">
-<link rel=alternate hreflang=en-us href=https://lucassxs.me/post/writing-technical-content/>
+<link rel=alternate hreflang=en-us href=https://lucassxs.me/blog/writing-technical-content/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#7731AF">
 <script src=/js/mathjax-config.js></script>
@@ -20,20 +20,19 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 <link rel=stylesheet href=/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css>
 <link rel=icon type=image/png href=/media/icon_hueee34140d6fc7e97d3f2ba2a2baa5730_8796_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hueee34140d6fc7e97d3f2ba2a2baa5730_8796_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://lucassxs.me/post/writing-technical-content/>
+<link rel=canonical href=https://lucassxs.me/blog/writing-technical-content/>
 <meta property="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="Lucas Stefano">
-<meta property="og:url" content="https://lucassxs.me/post/writing-technical-content/">
+<meta property="og:url" content="https://lucassxs.me/blog/writing-technical-content/">
 <meta property="og:title" content="Writing technical content in Academic | Lucas Stefano">
 <meta property="og:description" content="Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
-Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation."><meta property="og:image" content="https://lucassxs.me/post/writing-technical-content/featured.jpg">
-<meta property="twitter:image" content="https://lucassxs.me/post/writing-technical-content/featured.jpg"><meta property="og:locale" content="en-us">
+Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation."><meta property="og:image" content="https://lucassxs.me/blog/writing-technical-content/featured.jpg">
+<meta property="twitter:image" content="https://lucassxs.me/blog/writing-technical-content/featured.jpg"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2019-07-12T00:00:00+00:00">
 <meta property="article:modified_time" content="2019-07-12T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://lucassxs.me/post/writing-technical-content/"},"headline":"Writing technical content in Academic","image":["https://lucassxs.me/post/writing-technical-content/featured.jpg"],"datePublished":"2019-07-12T00:00:00Z","dateModified":"2019-07-12T00:00:00Z","author":{"@type":"Person","name":"Lucas Stefano"},"publisher":{"@type":"Organization","name":"Lucas Stefano","logo":{"@type":"ImageObject","url":"https://lucassxs.me/media/icon_hueee34140d6fc7e97d3f2ba2a2baa5730_8796_192x192_fill_lanczos_center_3.png"}},"description":"Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.\nHighlight your code snippets, take notes on math classes, and draw diagrams from textual representation."}</script>
 <title>Writing technical content in Academic | Lucas Stefano</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=07e02bccc368a192a0c76c44918396c3>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=16adc062967a2a9329e4a92d6b1689f3>
 <script src=/js/wowchemy-init.min.c2ae95842e5b33a787c7b8c567e989a4.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -69,7 +68,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 <a class="nav-link active" href=/><span>Home</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/blog><span>Blog</span></a>
+<a class="nav-link active" href=/blog><span>Blog</span></a>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/#projects><span>Projects</span></a>
@@ -93,15 +92,11 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 <span class=article-date>
 Jul 12, 2019
 </span>
-<span class=middot-divider></span>
-<span class=article-reading-time>
-5 min read
-</span>
 </div>
 </div>
 <div class="article-header container-fluid featured-image-wrapper mt-4 mb-4" style=max-width:2000px;max-height:1333px>
 <div style=position:relative>
-<img src=/post/writing-technical-content/featured.jpg alt class=featured-image>
+<img src=/blog/writing-technical-content/featured.jpg alt class=featured-image>
 <span class=article-header-caption>Image credit: <a href=https://unsplash.com/photos/OGZtQF8iC0g><strong>John Moeses Bauan</strong></a></span>
 </div>
 </div>
@@ -128,8 +123,8 @@ data.head()
 <p>Academic supports the popular <a href=https://plot.ly/ target=_blank rel=noopener>Plotly</a> chart format.</p>
 <p>Save your Plotly JSON in your page folder, for example <code>chart.json</code>, and then add the <code>{{&lt; chart data="chart" >}}</code> shortcode where you would like the chart to appear.</p>
 <p>Demo:</p>
-<div id=chart-147823569 class=chart></div>
-<script>(function(){let a=setInterval(function(){if(typeof window.Plotly=='undefined')return;clearInterval(a),Plotly.d3.json("./line-chart.json",function(a){Plotly.plot('chart-147823569',a.data,a.layout,{responsive:!0})})},500)})()</script>
+<div id=chart-397865214 class=chart></div>
+<script>(function(){let a=setInterval(function(){if(typeof window.Plotly=='undefined')return;clearInterval(a),Plotly.d3.json("./line-chart.json",function(a){Plotly.plot('chart-397865214',a.data,a.layout,{responsive:!0})})},500)})()</script>
 <p>You might also find the <a href=http://plotly-json-editor.getforge.io/ target=_blank rel=noopener>Plotly JSON Editor</a> useful.</p>
 <h3 id=math>Math</h3>
 <p>Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the <code>math</code> option in your <code>config/_default/params.toml</code> file.</p>
@@ -350,32 +345,32 @@ You found me!
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://lucassxs.me/post/writing-technical-content/&text=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://lucassxs.me/blog/writing-technical-content/&text=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://lucassxs.me/post/writing-technical-content/&t=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://lucassxs.me/blog/writing-technical-content/&t=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Writing%20technical%20content%20in%20Academic&body=https://lucassxs.me/post/writing-technical-content/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=Writing%20technical%20content%20in%20Academic&body=https://lucassxs.me/blog/writing-technical-content/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://lucassxs.me/post/writing-technical-content/&title=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://lucassxs.me/blog/writing-technical-content/&title=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Writing%20technical%20content%20in%20Academic%20https://lucassxs.me/post/writing-technical-content/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=Writing%20technical%20content%20in%20Academic%20https://lucassxs.me/blog/writing-technical-content/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://lucassxs.me/post/writing-technical-content/&title=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://lucassxs.me/blog/writing-technical-content/&title=Writing%20technical%20content%20in%20Academic" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
